@@ -5,6 +5,6 @@ public class Main {
         float height = 1.61F;
         float weight = 94.2F;
         float myBml = servise.calculate(height, weight);
-        System.out.println(myBml);
+        System.out.println("Индекс массы тела = " + myBml);
     }
 }
